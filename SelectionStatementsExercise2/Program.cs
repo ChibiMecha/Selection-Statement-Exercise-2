@@ -4,7 +4,31 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your favorite school subject?\nChoose between the following:\nMath\nScience\nHistory\nEnglish|Gym");
+            //Exercise 1
+            // var r = new Random();
+            // var favNumber = r.Next(1, 10);
+            // int userInput;
+            // do
+            // {
+            //     Console.WriteLine("Try to guess my favorite number 1-10");
+            //     userInput = int.Parse(Console.ReadLine());
+            
+            //     if (userInput < favNumber)
+            //     {
+            //     Console.WriteLine("Too Low");
+            //     }
+            //     else if (userInput > favNumber)
+            //     {
+            //     Console.WriteLine("Too High");
+            //     }
+            //     else
+            //     {
+            //     Console.WriteLine("You guessed it!!!");
+            //     }
+            // } while (userInput != favNumber);
+
+            //Exercise 2
+            Console.WriteLine("What is your favorite school subject?\nChoose between the following:\nMath\nScience\nHistory\nEnglish\nGym");
             string subject = Console.ReadLine();
 
             switch (subject)
